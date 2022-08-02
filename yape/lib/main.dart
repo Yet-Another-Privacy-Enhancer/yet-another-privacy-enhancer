@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'YAPE',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Yet Another Privacy Enhancer'),
+          title: const Text('Yet Another Privacy Enhancer'),
         ),
         // Body Here
       ),
